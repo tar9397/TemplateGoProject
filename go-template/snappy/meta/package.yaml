@@ -1,0 +1,13 @@
+name: 
+vendor: 
+architecture: [amd64, armhf]
+icon: meta/go.png
+version: 0.1
+services:
+ - name: 
+   description: "template Go snappy project"
+   start: ./bin/run
+   caps:
+    - networking
+    - network-service
+
